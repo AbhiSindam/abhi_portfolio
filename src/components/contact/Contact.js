@@ -20,8 +20,8 @@ export function Contact() {
         e.target,
         "1TLdrpB7WmeuHBDcq"
       )
-      .then((res) => `return <h1> Thanks for connecting</h1>`);
-      // .catch(err => console.log(err))
+      .then((res) => `return <h1> Thanks for connecting</h1>`)
+      .catch(err => console.log(err))
   };
   return (
     <Container>

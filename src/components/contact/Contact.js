@@ -17,6 +17,7 @@ export function Contact() {
     e.preventDefault();
     emailjs
       .sendForm(
+        "gmail",
         "service_fc9vmmc",
         "template_70qsuw8",
         e.target,

@@ -24,7 +24,7 @@ export function Contact() {
         "1TLdrpB7WmeuHBDcq"
       )
       .then((res) => alert('sent'))
-      .catch(err =>alert("not sent"))
+      .catch(err =>alert(err.message))
   };
   return (
     <Container>

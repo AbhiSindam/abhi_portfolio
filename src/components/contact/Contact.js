@@ -17,14 +17,13 @@ export function Contact() {
     e.preventDefault();
     emailjs
       .sendForm(
-  
         "service_fc9vmmc",
         "template_70qsuw8",
         e.target,
         "1TLdrpB7WmeuHBDcq"
       )
-      .then((res) => alert('sent'))
-      .catch(err =>alert(err.message))
+      .then((res) => alert("sent"))
+      .catch((err) => alert(err.message));
   };
   return (
     <Container>

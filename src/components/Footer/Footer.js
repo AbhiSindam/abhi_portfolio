@@ -24,12 +24,12 @@ const Footer = () => {
       <LinkList>
         <LinkColumn>
           <LinkTitle>📱 Call</LinkTitle>
-          <LinkItem href="tel:+91-7841915179">+91-7841915179</LinkItem>
+          <LinkItem href='tel:+91-9561014800'>+91-9561014800</LinkItem>
         </LinkColumn>
         <LinkColumn>
           <LinkTitle>✉️ Email</LinkTitle>
-          <LinkItem href="mailto:akshayg2697@gmail.com">
-            akshayg2697@gmail.com
+          <LinkItem href='mailto:abhisindam206@gmail.com'>
+            abhisindam206@gmail.com
           </LinkItem>
         </LinkColumn>
       </LinkList>
@@ -39,20 +39,17 @@ const Footer = () => {
           <Slogan>Innovating one project at a time</Slogan>
         </CompanyContainer>
         <SocialContainer>
-          <SocialIcons href="https://github.com/AkshaykumarG26" target="_blank">
-            <AiFillGithub size="3rem" />
+          <SocialIcons href='https://github.com/AbhiSindam' target='_blank'>
+            <AiFillGithub size='3rem' />
           </SocialIcons>
           <SocialIcons
-            href="https://www.linkedin.com/in/akshaykumar-gullapalli-516916176/"
-            target="_blank"
+            href='https://www.linkedin.com/in/abhi-sindam-5b7b98225/'
+            target='_blank'
           >
-            <AiFillLinkedin size="3rem" />
+            <AiFillLinkedin size='3rem' />
           </SocialIcons>
-          <SocialIcons
-            href="https://twitter.com/AkshaykumarG26"
-            target="_blank"
-          >
-            <AiFillTwitterCircle size="3rem" />
+          <SocialIcons href='https://twitter.com/' target='_blank'>
+            <AiFillTwitterCircle size='3rem' />
           </SocialIcons>
         </SocialContainer>
       </SocialIconsContainer>

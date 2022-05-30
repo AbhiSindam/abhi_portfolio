@@ -31,7 +31,7 @@ const Timeline = () => {
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
         Passionate software engineer, with strong design, problem-solving skills
-        and in depth knowledge of Javascript, NodeJS, ExpressJS and MongoDB,
+        and in depth knowledge of Javascript, HTML,CSS,React and Redux
         seeking to work with a reputed technology driven firm.
       </SectionText>
     </Section>

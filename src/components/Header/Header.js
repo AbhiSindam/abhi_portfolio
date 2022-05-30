@@ -12,7 +12,7 @@ const Header = () => (
       <Link href='/'>
         <a style={{ display: "flex", alignItems: "center", color: "white" }}>
           {/* <DiCssdeck size = "3rem" />  */}
-          <Span>{`< Akshay />`}</Span>
+          <Span>{`< Abhishek />`}</Span>
         </a>
       </Link>
     </Div1>
